@@ -1,0 +1,10 @@
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+
+local PhantomForcesWindow = Library:NewWindow("Auto Parry")
+
+local KillingCheats = PhantomForcesWindow:NewSection("Main")
+
+KillingCheats:CreateToggle("Auto Parry", function(value)
+if state then getgenv().visualizer = true
+loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/main/RedCircleBlock"))()
+end)
